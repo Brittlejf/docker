@@ -1,0 +1,9 @@
+version: 2.1
+
+orbs:
+  docker: hux/docker@0.0.1
+
+workflows:
+  build_and_test:
+    jobs:
+      - docker/lint
